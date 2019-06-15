@@ -1,3 +1,3 @@
 function myFunction(){
-    alert('a');
+    alert('b');
 }
