@@ -4,7 +4,42 @@
     padding: 0;
 }
 
-#a{
-    background-color: #f00;
-    padding: 200px;
+body{
+  background-color: #fff;
 }
+
+#nav{
+ width: 90%;
+ margin: auto;
+}
+
+.navItem{
+  float: left;
+  width: calc(100% / 7);
+  height: 30px;
+  background:#f00;
+}
+
+.navMid{
+  background: #0f0;
+}
+
+/*
+  #e03e52 Verm
+
+  #353b48 Dark claro
+  #2f3640 Dark Escuro
+
+  #ffffff Light claro
+  #f1f2f6 Light Escuro
+*/
+
+@keyframes pastel {
+    0%      {background-color: #f9e8f2;}
+    16.66%  {background-color: #e7d4e7;}
+    33.32%  {background-color: #ffe2e7;}
+    49.98%  {background-color: #fee7e1;}
+    66.64%  {background-color: #c2d5e4;}
+    83.3%   {background-color: #cdb9d5;}
+    100%    {background-color: #a8a9c8;}
+  }
