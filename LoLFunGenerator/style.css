@@ -1,0 +1,21 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #293542;
+}
+
+button{
+    padding: 30px;
+}
+
+#champ{
+    padding: 15px;
+    font-size: 32px;
+    text-align: center;
+    color: #fafafa;
+
+}
