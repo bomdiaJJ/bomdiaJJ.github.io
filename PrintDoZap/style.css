@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: #e0e0e0;
+    background-image: linear-gradient(180deg,#dddbd1,#d2dbdc);
+}
+
+#fundinhoVerde{
+    z-index: -1;
+    width: 100%;
+    height: 127px;
+    position: absolute;
+    background-color: #009688;
+}
+
+#conteudo{
+    position: absolute;
+    top: calc(50% - 479px);
+    left: calc(50% - 409.405px);
+}
+
+#janela{
+    float: left;
+    height: 958px;
+    width: 418.81px;
+    background: #fff;
+}
+
+#config{
+    float: left;
+    width: 400px;
+    height: 958px;
+    background: #f0f0f0;
+}
